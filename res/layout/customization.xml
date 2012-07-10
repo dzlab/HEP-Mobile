@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical">
+	
+	<TextView android:id="@+id/sms_text"
+					  android:layout_width="wrap_content"
+  					  android:layout_height="wrap_content"
+  					  android:text="SMS"
+  					  android:textSize="10pt"	
+  					  />
+  			  
+	<LinearLayout
+  		xmlns:android="http://schemas.android.com/apk/res/android"
+  		android:layout_width="fill_parent"
+  		android:layout_height="wrap_content"
+  		android:orientation="vertical"
+  		android:padding="10dp"> 		
+  			<TextView android:id="@+id/sms_read_text"
+  				      android:layout_width="wrap_content"
+         	 	   	  android:layout_height="wrap_content"
+  					  android:text="Read 20%"
+  					  android:textSize="7pt"	
+  			/>
+   			<SeekBar android:id="@+id/sms_read_slide" 
+   					 android:layout_width="fill_parent"
+         	 	   	 android:layout_height="wrap_content"
+   					 android:max="100"
+  			 		 android:progress="20"
+  			 		 android:secondaryProgress="0"
+   					 />
+  	</LinearLayout>		 
+  	
+	<LinearLayout
+  		xmlns:android="http://schemas.android.com/apk/res/android"
+  		android:layout_width="fill_parent"
+  		android:layout_height="wrap_content"
+  		android:orientation="vertical"
+  		android:padding="10dp">  		
+  			<TextView android:id="@+id/sms_unread_text"
+  					  android:layout_width="wrap_content"
+         	 	   	  android:layout_height="wrap_content"
+  					  android:text="UnRead 20%"
+  					  android:textSize="7pt"	
+  			/>
+   			<SeekBar android:id="@+id/sms_unread_slide" 
+   					 android:layout_width="fill_parent"
+         	 	   	 android:layout_height="wrap_content"
+  					 android:max="100"
+  			 		 android:progress="20"
+  			 		 android:secondaryProgress="0"
+  			 />
+	</LinearLayout>
+	
+	<TextView android:id="@+id/phone_text"
+  					  android:layout_width="fill_parent"
+  					  android:layout_height="wrap_content"
+  					  android:text="Phone"
+  					  android:textSize="10pt"	
+  			/>
+  			
+	<LinearLayout
+  		xmlns:android="http://schemas.android.com/apk/res/android"
+  		android:layout_width="fill_parent"
+  		android:layout_height="wrap_content"
+  		android:orientation="vertical"
+  		android:padding="10dp">  		
+  			<TextView android:id="@+id/phone_incoming_text"
+  					  android:layout_width="wrap_content"
+         	 	   	  android:layout_height="wrap_content"
+  					  android:text="Incoming 20%"
+  					  android:textSize="7pt"	
+  			/>
+   			<SeekBar android:id="@+id/phone_incoming_slide" 
+   					 android:layout_width="fill_parent"
+         	 	   	 android:layout_height="wrap_content"
+  					 android:max="100"
+  			 		 android:progress="20"
+  			 		 android:secondaryProgress="0"
+  			 />
+	</LinearLayout>
+	
+  	<LinearLayout
+  		xmlns:android="http://schemas.android.com/apk/res/android"
+  		android:layout_width="fill_parent"
+  		android:layout_height="wrap_content"
+  		android:orientation="vertical"
+  		android:padding="10dp">	
+  			<TextView android:id="@+id/phone_outgoing_text"
+  					  android:layout_width="wrap_content"
+         	 	   	  android:layout_height="wrap_content"
+  					  android:text="Outgoing 20%"
+  					  android:textSize="7pt"	
+  			/>
+   			<SeekBar android:id="@+id/phone_outgoing_slide" 
+  					 android:layout_width="fill_parent"
+         	 	   	 android:layout_height="wrap_content"
+  					 android:max="100"
+  			 		 android:progress="20"
+  			 		 android:secondaryProgress="0"
+  			 />
+	</LinearLayout>
+	
+	<LinearLayout
+  		xmlns:android="http://schemas.android.com/apk/res/android"
+  		android:layout_width="fill_parent"
+  		android:layout_height="wrap_content"
+  		android:orientation="vertical"
+  		android:padding="10dp">
+  			<TextView android:id="@+id/phone_missed_text"
+  					  android:layout_width="wrap_content"
+         	 	   	  android:layout_height="wrap_content"
+  					  android:text="Missed 20%"
+  					  android:textSize="7pt"	
+  			/>
+   			<SeekBar android:id="@+id/phone_missed_slide" 
+  					 android:layout_width="fill_parent"
+         	 	   	 android:layout_height="wrap_content"
+  					 android:max="100"
+  			 		 android:progress="20"
+  			 		 android:secondaryProgress="0"
+  			 />
+	</LinearLayout>
+  
+</LinearLayout>
