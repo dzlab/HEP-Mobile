@@ -25,10 +25,6 @@ import android.widget.SeekBar;
 import android.widget.SeekBar.OnSeekBarChangeListener;
 import android.widget.TextView;
 
-/**
- * @author hjwk9387
- *
- */
 public class CustomizationActivity extends Activity implements OnSeekBarChangeListener {
 
 	public static final String TAG = CustomizationActivity.class.getSimpleName();

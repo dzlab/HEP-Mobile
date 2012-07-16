@@ -15,10 +15,6 @@ import org.jdom.Document;
 import org.jdom.Element;
 import org.jdom.input.SAXBuilder;
 
-/**
- * @author hjwk9387
- *
- */
 public class ContactInfo {
 
 	protected long _id = 0;
